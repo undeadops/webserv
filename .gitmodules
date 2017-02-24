@@ -1,0 +1,3 @@
+[submodule "iso3166-2"]
+	path = iso3166-2
+	url = git@github.com:nuvi/iso3166-2.git
