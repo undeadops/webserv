@@ -21,7 +21,7 @@ try:
 	#incoming request
 	server = HTTPServer(('', PORT_NUMBER), myHandler)
 	print 'Started httpserver on port ' , PORT_NUMBER
-
+        print 'Hello'
 	#Wait forever for incoming htto requests
 	server.serve_forever()
 
